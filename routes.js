@@ -1,5 +1,4 @@
 const express=require('express');
-const config = require('./config');
 const EcommerceController = require('./controller/ecommerce.controller');
 const EcommerceRouter = express.Router();
 const userController = require('./controller/user.controller');
