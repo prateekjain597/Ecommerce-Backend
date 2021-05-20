@@ -13,7 +13,7 @@ const create = async (req, res) => {
     const product = new Product({ Id,Name,Description,Image,Price  });
     await product.save();
     status = 200;
-    Message = 'Product saved';
+    Message = 'Products saved';
   } catch (err) {
     console.log('Error', err);
     console.log(err.stack);
